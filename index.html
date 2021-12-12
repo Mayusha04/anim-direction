@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 320px;
+            height: 320px;
+            background-color: rgb(54, 214, 21);
+            animation-name: animate;
+            animation-duration: 4s;
+            position: relative;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes animate{
+            from {background-color:rgb(54, 214, 21);}
+            to {background-color: rgb(231, 31, 205);}
+        }
+        @keyframes animate {
+            0% {background-color: rgb(152, 47, 201); left:10px; top:10px;}
+            25%{background-color: rgb(224, 62, 184); left:400px; top:10px;}
+            50%{background-color: rgb(86, 42, 189);left:400px;top:400px;}
+            75%{background-color: rgb(196, 57, 231);left:10px;top:400px;}
+            100%{background-color: rgb(238, 23, 76); left:10px; top:10px;}
+        }
+    </style>
+</head>
+<body>
+    <h1>property</h1>
+    <div>
+
+    </div>
+</body>
+</html>
